@@ -1,24 +1,19 @@
 def display_board (board)
-      expect(rows[0])"   |   |   ")
-      expect(rows[1]).to eq("-----------")
-      expect(rows[2]).to eq("   |   |   ")
-      expect(rows[3]).to eq("-----------")
-      expect(rows[4]).to eq("   |   |   ")
+  puts " #{board[0]} | #{board[1]} | #{board[2]} "
+  puts "-----------"
+  puts " #{board[3]} | #{board[4]} | #{board[5]} "
+  puts "-----------"
+  puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-row = [" ","  | | "," "," "," "," "," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 
 display_board(board)
 
-def display_board (board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   | #{board[4]}  |   "
-  puts "-----------"
-  puts "   |   |   "
-end
 
-board = [" "," "," "," ","x"," "," "," "," "]
+
+
+
 
 
 
